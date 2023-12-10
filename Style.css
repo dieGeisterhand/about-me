@@ -72,10 +72,10 @@ img{
     display: grid;
 	grid-template-columns: 220px 200px;
     grid-row-gap: 20%;
-    grid-column-gap: 16%;
+    grid-column-gap: 12%;
     width: 750px;
-    margin-left: 10%;
-    margin-top: 80px;
+    margin-left: 14%;
+    margin-top: 3%;
     font-size: 25px;
     color: rgb(61, 61, 61);
 }
@@ -89,14 +89,16 @@ img{
 }
 
 .description{
-    width: 800px;
+    width: 671px;
     margin-left: 10%;
-    margin-top: 9%;
+    margin-top: 7%;
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
+.description1,
 .description2{
+    font-size: 25px;
     margin-top: 1%;
 }
 
@@ -109,7 +111,7 @@ img{
     border: none;
     border-radius: 25px;
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 button:hover{
