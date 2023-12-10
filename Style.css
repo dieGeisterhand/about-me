@@ -54,7 +54,7 @@ img{
 
 .name{
     color: rgb(61, 61, 61);
-    font-size: 50px;
+    font-size:2vw;
     margin-left: 10px;
     display: inline-block;
     margin-bottom: 20px;
@@ -78,7 +78,7 @@ img{
     width: 750px;
     margin-left: 14%;
     margin-top: 3%;
-    font-size: 25px;
+    font-size:1vw;
     color: rgb(61, 61, 61);
 }
 
@@ -94,13 +94,12 @@ img{
     width: 671px;
     margin-left: 10%;
     margin-top: 7%;
-    font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
 .description1,
 .description2{
-    font-size: 25px;
+    font-size:1vw;
     line-height: 45px;
     margin-top: 1%;
 }
@@ -108,7 +107,7 @@ img{
 .resume{
     height: 50px;
     width: 350px;
-    font-size: 25px;
+    font-size:1vw;
     color: rgb(255, 255, 255);
     background-color: rgb(145, 75, 145);
     border: none;
