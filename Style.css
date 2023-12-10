@@ -21,9 +21,10 @@ img{
 }
 
 .picture-box{
-    display: inline-block;
+    display: flex;
+    align-items: center;
 
-    width: 880px;
+    width: 671px;
     height: 225px;
     margin-top: 10%;
     margin-left: 10%;
@@ -55,11 +56,15 @@ img{
     font-size: 50px;
     margin-left: 10px;
     display: inline-block;
+    margin-bottom: 20px;
+    
 }
 
 .certs{
     display: inline-block;
     margin-top: 0px;
+    padding-left: 95%;
+    padding-bottom: 45px;
 }
 
 
