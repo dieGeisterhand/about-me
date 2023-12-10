@@ -105,8 +105,9 @@ img{
 }
 
 .resume{
-    height: 50px;
-    width: 350px;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
     font-size:1vw;
     color: rgb(255, 255, 255);
     background-color: rgb(145, 75, 145);
