@@ -56,6 +56,11 @@ img{
     margin-left: 90px;
 }
 
+.certs{
+    display: inline-block;
+    margin-top: 0px;
+}
+
 
 .contact-info{
     display: grid;
