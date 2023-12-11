@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*p{
     font-family: 'Fira Sans', sans-serif;
     margin-top: 75px;
@@ -21,3 +22,34 @@
     flex: 1;
     width: 50wv;
   }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Make body cover the full height of the viewport */
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    background-color: #dad1d1;
+    height: 100%; /* Make left panel cover the full height */
+}
+
+.right-panel {
+    background-color: #c70000;
+    height: 100%; /* Make left panel cover the full height */
+}
+
+.profile-picture{
+    height: 1vh;
+    width: 1vw;
+    border-radius: 50%;
+}
+>>>>>>> Stashed changes
