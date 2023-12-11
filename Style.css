@@ -1,126 +1,23 @@
-p{
+/*p{
     font-family: 'Fira Sans', sans-serif;
     margin-top: 75px;
-}
+}*/
 
-div,
-button{
-    font-family: 'Fira Sans', sans-serif;
-}
-
-img{
-    height: 35px;
-    width: 35px;
-    margin-right: 25px;
-    
-}
-
-
-.main-body{
-    padding-left: 25%;
-    padding-top: 2%;    
-}
-
-.picture-box{
+.container {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-
-    width: 671px;
-    height: 225px;
-    margin-top: 10%;
-    margin-left: 10%;
-
-
-}
-
-.picture{
-    display: inline-block;
-
+  }
+  
+.left-panel {
+    background-color: yellow;
     
-    height: 220px;
-    width: 220px;
-
-    border-radius: 50%;
-
-    vertical-align: middle;
-
-    margin-top: 0;
-
-}
-
-.name-box{
-    display: inline-block;
-}
-
-.name{
-    color: rgb(61, 61, 61);
-    font-size: 50px;
-    margin-left: 10px;
-    display: inline-block;
-    margin-bottom: 20px;
+    flex:1;
+    width: 50wv;
+  }
+  
+.right-panel {
+    background-color: orange;
     
-}
-
-.certs{
-    display: inline-block;
-    margin-top: 0px;
-    padding-left: 95%;
-    padding-bottom: 45px;
-    color:rgb(179, 179, 179);
-}
-
-
-.contact-info{
-    display: grid;
-	grid-template-columns: 220px 200px;
-    grid-row-gap: 20%;
-    grid-column-gap: 12%;
-    width: 750px;
-    margin-left: 14%;
-    margin-top: 3%;
-    font-size: 25px;
-    color: rgb(61, 61, 61);
-}
-
-.light-text{
-    color:rgb(179, 179, 179);
-}
-
-.colored-text{
-    color: rgb(145, 75, 145);
-}
-
-.description{
-    width: 671px;
-    margin-left: 10%;
-    margin-top: 7%;
-    font-size: 20px;
-    color: rgb(61, 61, 61);
-}
-
-.description1,
-.description2{
-    font-size: 25px;
-    line-height: 45px;
-    margin-top: 1%;
-}
-
-.resume{
-    height: 50px;
-    width: 350px;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(145, 75, 145);
-    border: none;
-    border-radius: 25px;
-    margin-left: 25%;
-    margin-top: 2%;
-}
-
-button:hover{
-    background-color: rgb(172, 102, 172);
-}
-
-button:active{
-    background-color: rgb(107, 63, 107);
-}
+    flex: 1;
+    width: 50wv;
+  }
