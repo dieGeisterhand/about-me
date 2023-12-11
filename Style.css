@@ -1,3 +1,26 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 25px;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+}
+
+.name{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.title{
+    font-size: 25px;
+    margin-top: ;
+}
+
+hr{
+    width: 50%;
 }
