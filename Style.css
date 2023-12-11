@@ -34,7 +34,10 @@ hr{
     height: 25px;
 }
 
-.content{
+.content,
+.achievements,
+.work-history{
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -48,6 +51,23 @@ hr{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: left;
-    margin-left: 25%;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    grid-column-gap: 125px;
+    grid-row-gap: 10px;
 }
 
+.work-history{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    margin-left: 10%;
+    grid-column-gap: 500px;
+}
+
+.achievements{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
