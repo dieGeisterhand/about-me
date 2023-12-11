@@ -13,18 +13,41 @@ body{
 .name{
     font-size: 50px;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .title{
     font-size: 25px;
+    margin-top: 0px;;
 }
 
 hr{
     width: 25%;
 }
 
+.certs{
+    margin-bottom: 0px;
+}
+
 .aplus{
     margin-left: 25%;
     height: 25px;
 }
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column-set{
+    display: inline-block;
+    text-align: left;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    margin-left: 25%;
+}
+
