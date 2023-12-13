@@ -25,7 +25,6 @@ body {
 .profile-body{
     margin-left: 10%;
     margin-top: 10%;
-    height: 12vw;
 }
 
 .profile-picture{
@@ -76,6 +75,7 @@ body {
     margin-bottom: 10%;
 }
 
+/*y u no work*/
 .description2{
     text-align: center;
 }
