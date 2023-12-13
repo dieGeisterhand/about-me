@@ -60,6 +60,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2vw;
+    text-align: justify;
 }
 
 .resume{
@@ -72,4 +73,6 @@ body {
     border-radius: 25px;
     margin-left: 20%;
     margin-top: 2%;
+    margin-bottom: 10%;
 }
+
