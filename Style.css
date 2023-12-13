@@ -30,6 +30,9 @@ body {
     vertical-align: middle;
     height: 175px;
     border-radius: 50%;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 80px;
 }
 
 .name{
