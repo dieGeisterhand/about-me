@@ -25,6 +25,7 @@ body {
 .profile-body{
     margin-left: 10%;
     margin-top: 10%;
+    align-content: center;
 }
 
 .profile-picture{
@@ -64,13 +65,13 @@ body {
 
 .resume{
     height: 50px;
-    width: 350px;
+    width: 250px;
     font-size: 25px;
     color: rgb(255, 255, 255);
     background-color: rgb(145, 75, 145);
     border: none;
     border-radius: 25px;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: 2%;
     margin-bottom: 10%;
 }
