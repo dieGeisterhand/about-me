@@ -8,12 +8,14 @@ body {
 
 .left-panel, .right-panel {
     flex: 1;
-    padding: 20px;
+    padding: 50px;
+    padding-top: 50px;
     box-sizing: border-box;
 }
 
 .left-panel {
     background-color: #ffffff;
+    
     
 }
 
