@@ -32,7 +32,7 @@ body {
 .profile-picture{
     display: inline-block;
     vertical-align: middle;
-    height: 12vw;
+    height: 175px;
     border-radius: 50%;
 }
 
@@ -73,7 +73,7 @@ body {
     background-color: rgb(145, 75, 145);
     border: none;
     border-radius: 25px;
-    
+    cursor: pointer;
     margin-top: 2%;
     margin-bottom: 10%;
 }
@@ -86,3 +86,12 @@ body {
 .center-button{
     text-align: center;
 }
+
+button:hover{
+    background-color: rgb(172, 102, 172);
+    }
+    
+button:active{
+    background-color: rgb(107, 63, 107);
+}
+
