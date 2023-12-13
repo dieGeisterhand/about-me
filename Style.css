@@ -15,7 +15,6 @@ body {
 .left-panel {
     background-color: #dad1d1;
     
-    
 }
 
 .right-panel {
@@ -24,7 +23,7 @@ body {
 }
 
 .profile-body{
- 
+    
 
 }
 
@@ -38,16 +37,16 @@ body {
 .name{
     display: inline-block;
     font-size: 34px;
-    margin-left: 15px;
+    
 }
 
 .contact-info{
     display: grid;
 	grid-template-columns: auto auto;
     grid-row-gap: 3vh;
-    margin-left: 19%;
+    margin-left: ;
     margin-top: 6%;
-    margin-right: 9%;
+    margin-right: ;
     font-size: 24px;
     color: rgb(61, 61, 61);
 }
@@ -80,13 +79,9 @@ body {
 
 }
 
-/*thanks for working*/
-.description2{
-    text-align: center;
-}
-
 .center-button,
-.profile-body{
+.profile-body,
+.name{
     text-align: center;
 }
 
