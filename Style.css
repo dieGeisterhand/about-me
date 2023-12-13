@@ -73,8 +73,6 @@ body {
     border: none;
     cursor: pointer;
     margin-top: 35px;
-    transition-property: all;
-    transition-duration: 1s;
 }
 
 .center-button,
