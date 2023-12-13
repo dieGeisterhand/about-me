@@ -44,13 +44,32 @@ body {
 .contact-info{
     display: grid;
 	grid-template-columns: auto auto;
+    grid-row-gap: 3vh;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-right: 10%;
-    font-size: 25px;
+    font-size: 2vw;
     color: rgb(61, 61, 61);
 }
 
 .contact-right{
     text-align: right;
+}
+
+.description{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vw;
+}
+
+.resume{
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 75, 145);
+    border: none;
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-top: 2%;
 }
