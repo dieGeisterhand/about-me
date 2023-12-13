@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100%; /* y u no work */
+    
 }
 
 .left-panel, .right-panel {
@@ -14,13 +14,13 @@ body {
 
 .left-panel {
     background-color: #dad1d1;
-    height: 100%; /* Make left panel cover the full height */
+    
     
 }
 
 .right-panel {
     background-color: #c70000;
-    height: 100%; /* Make left panel cover the full height */
+    
 }
 
 .profile-body{
