@@ -40,7 +40,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     color: rgb(61, 61, 61);
-    height: 60px;
+    height: 70px;
 }
 
 .contact-info{
@@ -48,7 +48,6 @@ body {
 	grid-template-columns: auto auto;
     grid-row-gap: 3vh;
     margin-top: 5%;
-   
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
