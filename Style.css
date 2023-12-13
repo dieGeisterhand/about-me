@@ -49,7 +49,7 @@ body {
     grid-row-gap: 3vh;
     margin-top: 5%;
    
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
@@ -61,8 +61,7 @@ body {
 .description{
     font-size: 20px;
     font-weight: 200;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 
 .resume{
@@ -72,13 +71,10 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(145, 75, 145);
     border: none;
-    border-radius: 25px;
     cursor: pointer;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 35px;
     transition-property: all;
     transition-duration: 1s;
-
 }
 
 .center-button,
@@ -98,5 +94,9 @@ button:hover{
     
 button:active{
     background-color: rgb(107, 63, 107);
+}
+
+.colored-text{
+    color: rgb(145, 75, 145);
 }
 
