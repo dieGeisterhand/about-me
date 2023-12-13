@@ -51,10 +51,12 @@ body {
 
 .contact-right{
     text-align: right;
+    font-weight: 200;
 }
 
 .description{
     font-size: 25px;
+    font-weight: 200;
     text-align: justify;
     
 }
