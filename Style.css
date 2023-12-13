@@ -46,7 +46,7 @@ body {
     display: grid;
 	grid-template-columns: auto auto;
     grid-row-gap: 3vh;
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
