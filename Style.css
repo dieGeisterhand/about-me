@@ -81,7 +81,12 @@ body {
 
 .center-button,
 .profile-body,
+.profile-picture{
+    text-align: center;
+}
+
 .name{
+    width: 100%;
     text-align: center;
 }
 
