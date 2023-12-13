@@ -40,3 +40,17 @@ body {
     font-size: 3vw;
     margin-left: 15px;
 }
+
+.contact-info{
+    display: grid;
+	grid-template-columns: auto auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+}
+
+.contact-right{
+    text-align: right;
+}
