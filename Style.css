@@ -38,7 +38,7 @@ body {
 
 .name{
     display: inline-block;
-    font-size: 3vw;
+    font-size: 34px;
     margin-left: 15px;
 }
 
@@ -46,10 +46,10 @@ body {
     display: grid;
 	grid-template-columns: auto auto;
     grid-row-gap: 3vh;
-    margin-left: 10%;
+    margin-left: 19%;
     margin-top: 6%;
-    margin-right: 10%;
-    font-size: 2vw;
+    margin-right: 9%;
+    font-size: 24px;
     color: rgb(61, 61, 61);
 }
 
@@ -76,6 +76,9 @@ body {
     cursor: pointer;
     margin-top: 2%;
     margin-bottom: 10%;
+    transition-property: all;
+    transition-duration: 1s;
+
 }
 
 /*thanks for working*/
