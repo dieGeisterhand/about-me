@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh; /* Make body cover the full height of the viewport */
+    height: 100%; /* y u no work */
 }
 
 .left-panel, .right-panel {
@@ -83,3 +83,6 @@ body {
     text-align: center;
 }
 
+.center-button{
+    text-align: center;
+}
