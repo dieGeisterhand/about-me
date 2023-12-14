@@ -114,8 +114,8 @@ button:active {
 .skills,
 .languages{
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 675px;
+    grid-template-columns: 300px auto;
+    column-gap: 400px;
     padding-top: 35px;
     
 }
