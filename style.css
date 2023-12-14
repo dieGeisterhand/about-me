@@ -15,8 +15,7 @@ body {
 
 .left-panel {
     background-color: #ffffff;
-    
-    
+    padding-top: 10%;
 }
 
 .right-panel {
@@ -40,16 +39,15 @@ body {
     font-size: 30px;
     font-weight: 500;
     color: rgb(61, 61, 61);
-    
+    height: 70px;
 }
 
 .contact-info{
     display: grid;
 	grid-template-columns: auto auto;
-    grid-row-gap: 3vh;
-    margin-top: 5%;
-   
-    font-size: 24px;
+    grid-row-gap: 20px;
+    margin-top: 30px;
+    font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
@@ -59,10 +57,9 @@ body {
 }
 
 .description{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 200;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 
 .resume{
@@ -72,13 +69,8 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(145, 75, 145);
     border: none;
-    border-radius: 25px;
     cursor: pointer;
-    margin-top: 2%;
-    margin-bottom: 10%;
-    transition-property: all;
-    transition-duration: 1s;
-
+    margin-top: 35px;
 }
 
 .center-button,
@@ -100,3 +92,12 @@ button:active{
     background-color: rgb(107, 63, 107);
 }
 
+.colored-text{
+    color: rgb(145, 75, 145);
+}
+
+.media-icon{
+    height: 50px;
+    padding-top: 380px;
+    margin-right: 25px;
+}
