@@ -161,3 +161,42 @@ button:active {
     font-size: 15px;
     color: rgb(61, 61, 61);
 }
+
+/*danger zone*/
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .left-panel, .right-panel {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .profile-picture {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-info {
+        grid-template-columns: auto;
+    }
+
+    .work-history,
+    .skills,
+    .languages {
+        grid-template-columns: auto;
+        column-gap: 20px; /* Adjust the gap between columns */
+    }
+
+    .employment1,
+    .employment,
+    .role,
+    .achievements,
+    .skills {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .right-panel-title {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
