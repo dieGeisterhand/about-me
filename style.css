@@ -6,7 +6,7 @@ body {
 }
 
 li{
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .left-panel, .right-panel {
@@ -17,7 +17,6 @@ li{
 .left-panel {
     background-color: #ffffff;
     padding: 50px;
-    padding-top: 10%;
     overflow: hidden; 
 }
 
@@ -106,7 +105,7 @@ button:active {
 
 .media-icon {
     height: 50px;
-    padding-top: 390px;
+    padding-top: 10%;
     margin-right: 25px;
 }
 
