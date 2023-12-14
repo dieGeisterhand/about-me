@@ -116,7 +116,7 @@ button:active {
 .languages{
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 380px;
+    column-gap: 450px;
     padding-top: 15px;
     
 }
