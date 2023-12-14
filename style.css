@@ -140,6 +140,7 @@ button:active {
     text-align: center;
     font-size: 30px;
     color: rgb(61, 61, 61);
+    width: 100%;
     padding-top: 5px;
 }
 
