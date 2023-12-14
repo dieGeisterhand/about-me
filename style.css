@@ -122,6 +122,12 @@ button:active {
 }
 
 
+.employment1{
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    padding-top: 20px;
+}
+
 .employment{
     font-size: 20px;
     color: rgb(61, 61, 61);
@@ -141,12 +147,19 @@ button:active {
     font-size: 30px;
     color: rgb(61, 61, 61);
     width: 100%;
+    height: 50px;
     padding-top: 5px;
 }
 
 /*adjust spacing as needed*/
 .about-me {
     margin-top: 20px;
+}
+
+.cert-type{
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
 }
 
 
