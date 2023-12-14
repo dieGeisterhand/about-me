@@ -116,11 +116,8 @@ button:active {
 .languages{
     display: grid;
     grid-template-columns: auto auto;
-
     column-gap: 450px;
-
     padding-top: 15px;
-    
 }
 
 
@@ -162,4 +159,5 @@ button:active {
     font-weight: 200;
     font-size: 15px;
     color: rgb(61, 61, 61);
+
 }
