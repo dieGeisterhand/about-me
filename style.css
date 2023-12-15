@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 
-li{
+li {
     margin-top: 10px;
 }
 
@@ -22,6 +22,7 @@ li{
     height: auto;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 .right-panel {
@@ -110,7 +111,7 @@ button:active {
     color: rgb(145, 75, 145);
 }
 
-.media-box{
+.media-box {
     padding-top: 8%;
 }
 .media-icon {
@@ -120,7 +121,7 @@ button:active {
 
 .work-history,
 .skills,
-.languages{
+.languages {
     display: grid;
     grid-template-columns: auto auto;
 
@@ -131,27 +132,27 @@ button:active {
 }
 
 
-.employment1{
+.employment1 {
     font-size: 20px;
     color: rgb(61, 61, 61);
     padding-top: 20px;
 }
 
-.employment{
+.employment {
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
 .role,
 .achievements,
-.skills{
+.skills {
     font-weight: 200;
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
 
-.right-panel-title{
+.right-panel-title {
     text-align: center;
     font-size: 30px;
     color: rgb(61, 61, 61);
@@ -165,7 +166,7 @@ button:active {
     margin-top: 20px;
 }
 
-.cert-type{
+.cert-type {
     font-weight: 200;
     font-size: 15px;
     color: rgb(61, 61, 61);
