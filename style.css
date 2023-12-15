@@ -5,25 +5,32 @@ body {
     height: 100%;
 }
 
-li{
+li {
     margin-top: 10px;
 }
 
 .left-panel, .right-panel {
-    flex: 1;
     box-sizing: border-box;
+    margin: 50px;
 }
 
 .left-panel {
     background-color: #ffffff;
-    padding: 50px;
+    padding: 25px;
     overflow: hidden; 
+    width: 60%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 .right-panel {
-    background-color: #f7f7f7;
+    background-color: #e6e6e6;
     padding: 50px;
     padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     overflow-y: auto; 
 }
 
@@ -103,7 +110,7 @@ button:active {
     color: rgb(145, 75, 145);
 }
 
-.media-box{
+.media-box {
     padding-top: 8%;
 }
 .media-icon {
@@ -113,7 +120,7 @@ button:active {
 
 .work-history,
 .skills,
-.languages{
+.languages {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 450px;
@@ -121,27 +128,27 @@ button:active {
 }
 
 
-.employment1{
+.employment1 {
     font-size: 20px;
     color: rgb(61, 61, 61);
     padding-top: 20px;
 }
 
-.employment{
+.employment {
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
 .role,
 .achievements,
-.skills{
+.skills {
     font-weight: 200;
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
 
-.right-panel-title{
+.right-panel-title {
     text-align: center;
     font-size: 30px;
     color: rgb(61, 61, 61);
@@ -155,9 +162,8 @@ button:active {
     margin-top: 20px;
 }
 
-.cert-type{
+.cert-type {
     font-weight: 200;
     font-size: 15px;
     color: rgb(61, 61, 61);
-
 }
