@@ -10,7 +10,6 @@ li{
 }
 
 .left-panel, .right-panel {
-    flex: 1;
     box-sizing: border-box;
 }
 
@@ -18,12 +17,18 @@ li{
     background-color: #ffffff;
     padding: 50px;
     overflow: hidden; 
+    width: 45%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .right-panel {
     background-color: #f5f5f5;
     padding: 50px;
     padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     overflow-y: auto; 
 }
 
