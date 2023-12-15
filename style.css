@@ -27,7 +27,6 @@ li {
 
 .right-panel {
     background-color: #e6e6e6;
-    
     padding: 50px;
     padding-top: 10px;
     padding-left: 100px;
@@ -124,9 +123,7 @@ button:active {
 .languages {
     display: grid;
     grid-template-columns: auto auto;
-
     column-gap: 450px;
-
     padding-top: 15px;
 }
 
