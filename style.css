@@ -12,6 +12,10 @@ li {
     margin-top: 10px;
 }
 
+a {
+    color: rgb(145, 75, 145);
+}
+
 .bold{
     font-weight: 700;
 }
@@ -111,10 +115,6 @@ button:active {
     background-color: rgb(107, 63, 107);
 }
 
-.colored-text {
-    color: rgb(145, 75, 145);
-}
-
 .media-box {
     margin-top: 115px;
 }
@@ -123,7 +123,7 @@ button:active {
     margin-right: 25px;
 }
 
-.work-history,
+.generic-grid,
 .skills,
 .languages {
     display: grid;
@@ -133,13 +133,13 @@ button:active {
     justify-items: f
 }
 
-.employment {
+.top-title {
     font-size: 20px;
     color: rgb(61, 61, 61);
 }
 
-.role,
-.achievements,
+.subtitle,
+.item-list,
 .skills {
     font-weight: 200;
     color: rgb(61, 61, 61);
@@ -160,7 +160,7 @@ button:active {
     margin-top: 20px;
 }
 
-.cert-type {
+.subtitle-small {
     font-weight: 200;
     font-size: 15px;
     color: rgb(61, 61, 61);
