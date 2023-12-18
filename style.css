@@ -171,7 +171,7 @@ button:active {
     margin-top: 20px;
 }
 
-/* Media Query for screens smaller than 768px (typical mobile screens) */
+/*media query for screens smaller than 768px*/
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -190,7 +190,7 @@ button:active {
         height: 100vh;
     }
     .right-panel {
-        
-        display: none; /* Hide the right panel on smaller screens */
+        /* Hide the right panel on smaller screens */
+        display: none; 
     }
 }
