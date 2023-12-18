@@ -185,7 +185,8 @@ button:active {
     }
 
     .left-panel{
-        margin-top: 25%;
+        margin: auto;
+        height: auto;
     }
     .right-panel {
         display: none; /* Hide the right panel on smaller screens */
