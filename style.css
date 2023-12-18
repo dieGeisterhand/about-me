@@ -171,4 +171,24 @@ button:active {
     margin-top: 20px;
 }
 
+/* Media Query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
 
+    .left-panel,
+    .right-panel {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .left-panel {
+        order: 2;
+    }
+
+    .right-panel {
+        order: 1;
+    }
+}
