@@ -185,10 +185,12 @@ button:active {
     }
 
     .left-panel{
+        display: block;
         margin: auto;
-        height: auto;
+        height: 100vh;
     }
     .right-panel {
+        
         display: none; /* Hide the right panel on smaller screens */
     }
 }
