@@ -173,102 +173,18 @@ button:active {
 
 /*media query for screens smaller than 768px*/
 @media (max-width: 768px) {
-    body {
-        flex-direction: column;
-    }
 
-    .left-panel,
-    .right-panel {
-        width: 100%;
+    .left-panel {
+        display: block;
+        margin: 50px;
+        padding: 0;     
         box-sizing: border-box;
     }
 
-    .left-panel{
-        display: block;
-        margin: auto;
-        height: 100%;
-    }
+
     .right-panel {
         /* Hide the right panel on smaller screens */
         display: none; 
-    }
-
-
-    .profile-picture {
-        display: inline-block;
-        vertical-align: middle;
-        height: 150px;
-        border-radius: 50%;
-        padding-top: 5%;
-        padding-left: 50px;
-        padding-right: 80px;
-        
-    }
-    
-    .name {
-        display: block;
-        font-size: 25px;
-        font-weight: 500;
-        color: rgb(61, 61, 61);
-        margin-top: 20px;
-    }
-    
-    .contact-info {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-row-gap: 20px;
-        margin-top: 30px;
-        color: rgb(61, 61, 61);
-    }
-    
-    .contact-right {
-        text-align: right;
-        font-weight: 200;
-    }
-    
-    .description {
-        
-        font-weight: 200;
-        text-align: justify;
-        margin-top: 20px;
-    }
-    
-    .button-resume {
-        height: 50px;
-        width: 200px;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(145, 75, 145);
-        border: none;
-        cursor: pointer;
-        margin-top: 35px;
-    }
-    
-    .center-button,
-    .profile-body,
-    .profile-picture {
-        text-align: center;
-    }
-    
-    .name {
-        width: 100%;
-        text-align: center;
-    }
-    
-    button:hover {
-        background-color: rgb(172, 102, 172);
-    }
-    
-    button:active {
-        background-color: rgb(107, 63, 107);
-    }
-    
-    .media-box {
-        margin-top: 115px;
-    }
-    .media-icon {
-        height: 50px;
-        margin-right: 25px;
     }
 
 }
