@@ -171,8 +171,8 @@ button:active {
     margin-top: 20px;
 }
 
-/*media query for screens smaller than 768px*/
-@media (max-width: 768px) {
+/*media query for screens smaller than 800px*/
+@media (max-width: 800px) {
 
     .left-panel {
         display: block;
@@ -183,7 +183,8 @@ button:active {
 
 
     .right-panel {
-        /* Hide the right panel on smaller screens */
+        /*hide the right panel on smaller screens.*/
+        /*temporary work around - provides readable content if window not maximized*/
         display: none; 
     }
 
