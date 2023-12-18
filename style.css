@@ -175,7 +175,7 @@ button:active {
     margin-top: 20px;
 }
 
-/*media query for screens smaller than 800px*/
+/*media query for screens smaller than 1000px*/
 @media (max-width: 1000px) {
 
     .left-panel {
