@@ -12,6 +12,10 @@ li {
     margin-top: 10px;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 .left-panel, .right-panel {
     box-sizing: border-box;
 }
