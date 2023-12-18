@@ -184,12 +184,10 @@ button:active {
         box-sizing: border-box;
     }
 
-    .left-panel {
-        order: 1;
-        height: 100vh;
+    .left-panel{
+        margin-top: 25%;
     }
-
     .right-panel {
-        order: 2;
+        display: none; /* Hide the right panel on smaller screens */
     }
 }
