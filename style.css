@@ -124,7 +124,6 @@ button:active {
 .media-box {
     position: fixed;
     margin-top: 115px;
-
 }
 
 .media-icon {
@@ -156,10 +155,7 @@ button:active {
 .subtitle-small {
     font-weight: 200;
     font-size: 15px;
-    color: rgb(61, 61, 61);
 }
-
-
 
 .right-panel-title {
     text-align: center;
