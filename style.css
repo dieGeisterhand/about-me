@@ -8,6 +8,8 @@ body {
   align-items: center;
 }
 
+
+
 li{
   font-size: 20px;
   font-weight: 200;
@@ -16,6 +18,12 @@ li{
 
 .light-text{
   font-weight: 200;
+}
+
+.purple-text{
+  text-decoration: underline;
+  color: rgb(145, 75, 145);
+  text-decoration-color: rgb(145, 75, 145);
 }
 
 .website-container {
@@ -43,7 +51,8 @@ li{
 .contact-container,
 .resume-box,
 .work-history-box,
-.contact-container2 {
+.contact-container2,
+.resume-box2 {
   padding: 50px;
   border-radius: 20px;
   background-color: rgb(224, 224, 224);
@@ -99,6 +108,7 @@ li{
   border-radius: 20px;
   font-family: "Fira Sans", sans-serif;
   font-size: 25px;
+  text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: rgb(145, 75, 145);
   border: none;
@@ -144,8 +154,14 @@ li{
 
 .left{
   text-align: left;
+  
 }
+
 .right{
   text-align: right;
+}
+
+.resume-box2{
+  height: 218px;
 }
 
