@@ -66,7 +66,7 @@ li{
 }
 
 .contact-container {
-  height: 280px;
+  height: 255px;
   width: 400px;
 }
 
@@ -87,9 +87,10 @@ li{
 }
 
 .resume-button {
-  height: 110px;
+  height: 135px;
   width: 400px;
   border-radius: 20px;
+  font-family: "Fira Sans", sans-serif;
   font-size: 25px;
   color: rgb(255, 255, 255);
   background-color: rgb(145, 75, 145);
