@@ -20,6 +20,10 @@ li{
   font-weight: 200;
 }
 
+.purple-text:hover{
+  color: rgb(180, 93, 180);
+}
+
 .purple-text{
   text-decoration: underline;
   color: rgb(145, 75, 145);
@@ -113,7 +117,13 @@ li{
   background-color: rgb(145, 75, 145);
   border: none;
   cursor: pointer;
+
 }
+
+.resume-button:hover{
+  background-color: rgb(180, 93, 180);
+}
+
 
 .media-box {
   text-align: right;
@@ -162,5 +172,5 @@ li{
 }
 
 .resume-box2{
-  height: 218px;
+  height: 219px;
 }
