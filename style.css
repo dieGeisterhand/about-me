@@ -15,8 +15,7 @@ li{
 .website-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  max-width: 1500px;
-  margin-left: 10%;
+  width: 1100px;
 }
 
 .centered-container {
@@ -34,6 +33,7 @@ li{
 }
 
 .profile-box,
+.profile-box2,
 .item-box,
 .contact-container,
 .resume-box,
@@ -101,38 +101,15 @@ li{
 .media-box {
   text-align: right;
 }
+
 .media-icon {
   height: 50px;
   margin-top: 25px;
   margin-left: 25px;
 }
 
-.generic-grid,
-.skills,
-.languages {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 750px;
-    padding-top: 15px;
-}
-
-.top-title {
-    font-size: 20px;
-}
-
-.subtitle,
-.item-list,
-.skills {
-    font-weight: 200;
-}
-
-.subtitle-small {
-    font-weight: 200;
-    font-size: 15px;
-}
-
 .work-history-box{
-  width: 1150px;
+  width: 950px;
 }
 
 .world-peace{
