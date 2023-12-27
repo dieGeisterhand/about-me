@@ -1,10 +1,15 @@
 body {
   font-family: "Fira Sans", sans-serif;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 61, 61);
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+li{
+  font-size: 20px;
 }
 
 .website-container {
@@ -18,9 +23,14 @@ body {
   text-align: center;
 }
 
+.description {
+  font-weight: 200;
+  margin-top: 35px;
+}
+
 .description,
 .shared-space {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .profile-box,
@@ -30,7 +40,7 @@ body {
 .work-history-box {
   padding: 50px;
   border-radius: 20px;
-  background-color: red;
+  background-color: rgb(224, 224, 224);
   margin: 25px;
 }
 
@@ -47,7 +57,7 @@ body {
   border-radius: 50%;
   padding-left: 50px;
   padding-right: 80px;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -77,8 +87,9 @@ body {
 }
 
 .resume-button {
-  height: 100px;
+  height: 110px;
   width: 400px;
+  border-radius: 20px;
   font-size: 25px;
   color: rgb(255, 255, 255);
   background-color: rgb(145, 75, 145);
@@ -121,4 +132,9 @@ body {
 
 .work-history-box{
   width: 1150px;
+}
+
+.world-peace{
+  margin: 0;
+  width: 0px;
 }
