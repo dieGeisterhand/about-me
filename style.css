@@ -56,7 +56,8 @@ li{
 .resume-box,
 .work-history-box,
 .contact-container2,
-.resume-box2 {
+.resume-box2,
+.empty-container {
   padding: 50px;
   border-radius: 20px;
   background-color: rgb(224, 224, 224);
@@ -178,4 +179,15 @@ li{
 
 .resume-box2{
   height: 219px;
+}
+
+.empty-container{
+  height: 9px;
+  width: 145px;
+}
+
+.kitty{
+  height: 150px;
+  margin-top: -70px;
+  margin-left: -50px;
 }
