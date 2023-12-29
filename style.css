@@ -70,6 +70,11 @@ li{
   font-weight: bold;
 }
 
+.profile-box {
+  height: 515px;
+  width: 400px;
+}
+
 .profile-picture {
   display: inline-block;
   vertical-align: middle;
