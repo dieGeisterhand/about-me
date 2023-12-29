@@ -74,6 +74,7 @@ li{
 .profile-box {
   height: 515px;
   width: 400px;
+  margin-bottom: 0px;
 }
 
 .profile-picture {
@@ -110,6 +111,7 @@ li{
 
 .resume-box {
   width: 400px;
+  margin-bottom: 0px;
 }
 
 .resume-button {
@@ -143,6 +145,7 @@ li{
 
 .work-history-box{
   width: 950px;
+  margin-bottom: 0px;
 }
 
 .world-peace{
