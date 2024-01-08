@@ -57,6 +57,7 @@ ul {
 }
 
 li {
+  font-weight: 700;
   color: rgb(223,223,226);
   padding: 0 25px 0 25px;
   display: block;
