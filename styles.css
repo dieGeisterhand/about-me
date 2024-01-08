@@ -1,7 +1,22 @@
 
-  * {
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
+}
+
+@keyframes blink {
+  0%, 49.9% {
+    opacity: 0;
   }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+
+.animation {
+  animation: blink 1s infinite; /* Change the animation duration as needed */
+}
+
+
 
 
 body {
@@ -13,7 +28,7 @@ body {
 
 header {
   width: 100%;
-  height: 50px;
+  height: 75px;
   background-color: #ca00c0;
   display: flex;
   justify-content: space-between;
@@ -65,31 +80,50 @@ li > a {
   padding: 0 50px 0 50px;
 }
 
+main {
+  margin-top: 75px;
+}
 .about-container {
+  text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   width: 100%;
   background-color: #720000;
 }
 
 .background-container {
-  display: flex;
+
   height: 100vh;
   width: 100%;
   background-color: #007263;
 }
 
 .projects-container {
-  display: flex;
+
   height: 100vh;
   width: 100%;
   background-color: #720039;
 }
 
 .contact-container {
-  display: flex;
+
   height: 100vh;
   width: 100%;
   background-color: #007263;
+}
+
+
+.main {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+.char {
+  font-size: 24px;
+  margin-top: 50px;
 }
 
