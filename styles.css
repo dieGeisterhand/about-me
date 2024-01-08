@@ -1,3 +1,4 @@
+/**********************scroll and underscore animation**********************/
 
 * {
   scroll-behavior: smooth;
@@ -13,41 +14,33 @@
 }
 
 .animation {
-  animation: blink 1s infinite; /* Change the animation duration as needed */
+  animation: blink 1.5s infinite;
+  color: rgb(86, 156, 214);
+  font-weight: 500;
 }
 
-
-
+/**********************scroll and underscore animation**********************/
 
 body {
   background: #f5f6f7;
-  color: #1b1b32;
-  font-family: Helvetica;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
+}
+
+main {
+  margin-top: 75px;
 }
 
 header {
   width: 100%;
   height: 75px;
-  background-color: #ca00c0;
+  background-color: #7e1010;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
-}
-
-h1 {
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  margin-left: 50px;
-}
-
-nav {
-  width: 50%;
-  max-width: 300px;
-  height: 50px;
 }
 
 nav > ul {
@@ -69,7 +62,7 @@ nav > ul > li {
 
 nav > ul > li:hover {
   background-color: #dfdfe2;
-  color: #1b1b32;
+  color: #7e1010;
   cursor: pointer;
 }
 
@@ -77,12 +70,17 @@ li > a {
   color: inherit;
   font-size: 24px;
   text-decoration: none;
-  padding: 0 50px 0 50px;
+  padding: 0 25px 0 25px;
+  transition: padding, 0.25s;
 }
 
-main {
-  margin-top: 75px;
+a:hover{
+  padding-left: 75px; padding-right: 75px;
+  margin-left: 0px; margin-right: 0px;
 }
+
+
+
 .about-container {
   text-align: center;
   display: flex;
@@ -91,8 +89,45 @@ main {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: #720000;
+  background: linear-gradient(rgb(31, 31, 31), rgb(31, 31, 31), rgb(41, 41, 41));
 }
+
+.name {
+  font-weight: 300;
+  font-size: 48px;
+  color: rgb(247, 247, 247);
+  margin: 0;
+}
+
+.orange {
+  color: rgb(219, 107, 51);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+.blue {
+  color: rgb(52, 142, 202);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+
+.subtitle {
+  font-weight: 700;
+}
+
+.one {
+  font-size: 24px;
+}
+
+.two {
+  font-size: 8px;
+
+}
+
+
+
+
 
 .background-container {
 
@@ -105,7 +140,7 @@ main {
 
   height: 100vh;
   width: 100%;
-  background-color: #720039;
+  background-color: #5e0e0e;
 }
 
 .contact-container {
@@ -115,15 +150,4 @@ main {
   background-color: #007263;
 }
 
-
-.main {
-  font-weight: bold;
-  font-size: 48px;
-  margin: 0;
-}
-
-.char {
-  font-size: 24px;
-  margin-top: 50px;
-}
 
