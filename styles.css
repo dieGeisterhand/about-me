@@ -7,6 +7,8 @@ body {
 footer {
   border-top: 2px solid rgb(158, 40, 55);
   background-color: rgb(31, 31, 31);
+  color: rgb(158, 40, 55);
+  font-weight: 700;
   text-align: center;
   padding: 50px 0 50px 0;
 }
@@ -64,14 +66,14 @@ ul {
 
 li {
   font-weight: 700;
-  color: rgb(223,223,226);
+  color: rgb(223, 223, 226);
   padding: 0 25px 0 25px;
   display: block;
 }
 
 li:hover {
-  background-color: rgb(223,223,226);
-  color: rgb(158, 40, 55);
+  background-color: rgba(223, 223, 226, 0.9);
+  color: rgba(158, 40, 55, 1);
   cursor: pointer;
 }
 
@@ -107,7 +109,7 @@ a:hover{
 
 .name {
   font-weight: 300;
-  font-size: 48px;
+  font-size: 58px;
   color: rgb(247, 247, 247);
   margin: 0;
 }
@@ -130,11 +132,11 @@ a:hover{
 }
 
 .one {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .two {
-  font-size: 8px;
+  font-size: 12px;
 
 }
 
