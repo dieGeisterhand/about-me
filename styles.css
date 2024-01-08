@@ -1,3 +1,18 @@
+body {
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+footer {
+  border-top: 2px solid rgb(158, 40, 55);
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+
+
 /**********************scroll and underscore animation**********************/
 
 * {
@@ -15,21 +30,11 @@
 
 .animation {
   animation: blink 1.5s infinite;
-  color: rgb(86, 156, 214);
+  color: rgb(69, 86, 125);
   font-weight: 500;
 }
 
 /**********************scroll and underscore animation**********************/
-
-body {
-  color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
-  margin: 0;
-}
-
-main {
-  margin-top: 75px;
-}
 
 
 /**********************navigation bar**********************/
@@ -107,13 +112,13 @@ a:hover{
 }
 
 .orange {
-  color: rgb(219, 107, 51);
+  color: rgb(189, 98, 52);
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
 }
 
 .blue {
-  color: rgb(52, 142, 202);
+  color: rgb(69, 86, 125);
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
 }
@@ -140,21 +145,21 @@ a:hover{
 
   height: 100vh;
   width: 100%;
-  background-color: #007263;
+  background-color: rgb(69, 86, 125);
 }
 
 .projects-container {
 
   height: 100vh;
   width: 100%;
-  background-color: #5e0e0e;
+  background-color: rgb(5, 119, 104);
 }
 
 .contact-container {
 
   height: 100vh;
   width: 100%;
-  background-color: #007263;
+  background-color: rgb(31, 31, 31);
 }
 
 
