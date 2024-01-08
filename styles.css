@@ -90,7 +90,7 @@ a {
 
 
 
-/**********************first container**********************/
+/**********************main container**********************/
 
 .about-container {
   text-align: center;
@@ -136,9 +136,11 @@ a {
 
 }
 
-/**********************first container**********************/
+/**********************main container**********************/
 
 
+
+/**********************background container**********************/
 
 .background-container {
 
@@ -147,12 +149,39 @@ a {
   background-color: rgb(203, 98, 52);
 }
 
+
+
+
+
+
+
+/**********************background container**********************/
+
+
+
+
+
+
+
+/**********************project container**********************/
 .projects-container {
 
   height: 100vh;
   width: 100%;
   background-color: rgb(203, 52, 187);
 }
+
+
+
+
+/**********************project container**********************/
+
+
+
+
+
+
+/**********************contact container**********************/
 
 .contact-container {
 
@@ -162,3 +191,7 @@ a {
 }
 
 
+
+
+
+/**********************contact container**********************/
