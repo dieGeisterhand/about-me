@@ -1,6 +1,6 @@
 /*the variables below control the general color set throughout the page.********
 **note that --general-use-white is used wherever white is needed for the sake of
-**setting colors using variables***********************************************/
+**setting colors using established variables***********************************************/
 :root{
   --background-color: rgb(31, 31, 31);
   --general-use-white: rgb(255, 255, 255); 
@@ -11,7 +11,7 @@
 }
 /*the variables above control the general color set throughout the page.********
 **note that --general-use-white is used wherever white is needed for the sake of
-**setting colors using variables***********************************************/
+**setting colors using established variables***********************************************/
 
 body {
   color: var(--general-use-white);
@@ -70,9 +70,9 @@ a {
 /**********************navigation bar**********************/
 /**********************main container**********************/
 .about-container {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -114,6 +114,7 @@ a {
 /**********************smooth scroll and underscore animation**********************/
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 @keyframes blink {
@@ -125,31 +126,73 @@ a {
   }
 }
 
-.underscore-animation {
+.underscore {
   animation: blink 1.5s infinite;
-  font-weight: 500;
+  font-weight: 300;
 }
 /**********************smooth scroll and underscore animation**********************/
 /**********************background container**********************/
 .background-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
   height: 100vh;
   width: 100%;
   background-color: var(--panel-1);
 }
+
+.item-box{
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  height: 450px;
+  width: 400px;
+  background-color: rgb(255, 0, 0);
+}
+
 /**********************background container**********************/
 /**********************project container**********************/
 .projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
   height: 100vh;
   width: 100%;
   background-color: var(--panel-2);
 }
+
+.button-projects {
+  display: block;
+}
 /**********************project container**********************/
 /**********************contact container**********************/
 .contact-container {
-  height: 88vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
   width: 100%;
   background-color: var(--background-color);
 }
+
+
+.contact-placeholder{
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  height: 800px;
+  width: 1000px;
+  background-color: rgb(255, 0, 0);
+}
+
 /**********************contact container**********************/
 /*****************anything related to the footer**************/
 footer {
@@ -163,6 +206,25 @@ footer {
   color: var(--general-use-white);
   font-weight: 700;
   padding: 50px 0;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  height: 50px;
+  margin: 0 15px 25px 15px;
+}
+
+.icons {
+  margin: 0;
+  padding: 0;
 }
 
 .signature {
