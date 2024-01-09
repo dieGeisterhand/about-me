@@ -84,6 +84,10 @@ li:hover {
   cursor: pointer;
 }
 
+li:active{
+  margin-top: 10px;
+}
+
 a {
   color: inherit;
   font-size: 24px;
@@ -191,7 +195,7 @@ a {
 /**********************contact container**********************/
 
 .contact-container {
-  height: 100vh;
+  height: 88vh;
   width: 100%;
   background-color: var(--background-color);
 }
