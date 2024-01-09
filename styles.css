@@ -188,8 +188,8 @@ a {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  height: 800px;
-  width: 1000px;
+  height: 500px;
+  width: 500px;
   background-color: rgb(255, 0, 0);
 }
 
