@@ -144,32 +144,56 @@ a {
   background-color: var(--panel-1);
 }
 
-.item-box{
+.item-box {
   display: flex;
   flex-direction: column;
-  vertical-align: middle;
-  height: 450px;
-  width: 400px;
+  align-items: center; 
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
   background-color: rgb(255, 0, 0);
 }
+
 
 /**********************background container**********************/
 /**********************project container**********************/
 .projects-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+  padding: 25px 0;
   background-color: var(--panel-2);
+}
+
+.project-boxes-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 100%;
 }
 
 .button-projects {
   display: block;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: var(--nav-bar);
+  color: var(--general-use-white);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+.button-projects:hover {
+  background-color: var(--general-use-white);
+  color: var(--nav-bar);
+}
+
 /**********************project container**********************/
 /**********************contact container**********************/
 .contact-container {
@@ -178,7 +202,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
+  max-height: 80vh;
   width: 100%;
   background-color: var(--background-color);
 }
@@ -188,8 +213,8 @@ a {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
   background-color: rgb(255, 0, 0);
 }
 
