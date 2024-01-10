@@ -18,6 +18,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
+
 /**********************navigation bar**********************/
 header {
   width: 100%;
@@ -193,6 +194,7 @@ a {
   background-color: var(--panel-1);
   color: var(--general-use-white);
   font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -208,8 +210,6 @@ a {
 /**********************contact container**********************/
 .contact-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   min-height: 80vh;
@@ -218,12 +218,24 @@ a {
   background-color: var(--background-color);
 }
 
-
-.contact-placeholder{
+.contact-placeholder {
   display: flex;
   flex-direction: column;
-  vertical-align: middle;
+  align-items: center; /* Center content vertically */
 }
+
+.mailto {
+  font-weight: 300;
+  font-size: 58px;
+  color: var(--general-use-white);
+}
+
+.mailto:hover{
+  background-color: var(--general-use-white);
+  color: var(--nav-bar);
+
+}
+
 
 /**********************contact container**********************/
 /*****************anything related to the footer**************/
