@@ -222,9 +222,6 @@ a {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  height: 250px;
-  width: 250px;
-  background-color: rgb(255, 0, 0);
 }
 
 /**********************contact container**********************/
