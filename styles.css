@@ -126,7 +126,7 @@ a {
   }
 }
 
-.underscore {
+.blink {
   animation: blink 1.5s infinite;
   font-weight: 300;
 }
@@ -164,7 +164,7 @@ a {
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 100vh;
+  min-height: 102vh;
   width: 100%;
   padding: 0 0;
   background-color: var(--panel-2);
@@ -188,10 +188,11 @@ a {
 
 .button-projects {
   display: block;
-  margin: 15px 0;
-  padding: 10px;
-  background-color: var(--nav-bar);
+  margin: -50px 15px 15px 15px;
+  padding: 15px;
+  background-color: var(--panel-1);
   color: var(--general-use-white);
+  font-family: 'Roboto Mono', monospace;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -200,7 +201,7 @@ a {
 
 .button-projects:hover {
   background-color: var(--general-use-white);
-  color: var(--nav-bar);
+  color: var(--panel-1);
 }
 
 /**********************project container**********************/
