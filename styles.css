@@ -64,8 +64,7 @@ a {
   color: inherit;
   font-size: 24px;
   text-decoration: none;
-  padding: 0 25px 0 25px;
-  margin: 0 25px 0 25px;
+
   transition: padding, 0.25s;
 }
 /**********************navigation bar**********************/
@@ -174,35 +173,54 @@ a {
   width: 200px;
 }
 
+.linked-box {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .item-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  justify-content: space-between; /* Updated to provide space between image and text */
+  justify-content: space-between;
   height: 300px;
   width: 250px;
-  border: 2px solid var(--nav-bar);
+
+  border: 1 px solid var(--nav-bar);
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
+
 .project-img {
-  height: 100%; /* Updated to ensure the image takes full height of the container */
+  height: 100%; 
   width: 100%;
-  object-fit: cover; /* Added to make the image cover the container */
+  object-fit: cover; 
   margin: 0;
 }
 
 .description-div {
   display: flex;
-  flex-direction: column; /* Updated to stack text vertically */
+  flex-direction: column; 
   align-items: center;
   width: 100%;
 }
 
 .project-description {
-  padding: 0 0 0 0; /* Updated margin for better spacing */
+  display: flex;
+  height: 50px;
+  width: 245px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: hover, 0.25s;
 }
+
+.item-box:hover {
+  background-color: white;
+}
+
 
 .button-container {
   display: flex;
