@@ -228,6 +228,7 @@ a {
 
 .item-box:hover {
   background-color: white;
+  color: var(--panel-1)
 }
 
 .item-box:active {
