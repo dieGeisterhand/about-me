@@ -51,7 +51,7 @@ ul {
 li {
   font-weight: 700;
   color: var(--general-use-white);
-  padding: 0 25px 0 25px;
+  padding: 8px;
   display: block;
 }
 
@@ -253,7 +253,7 @@ a {
 .button-projects {
   display: block;
   margin: auto;
-  padding: 15px;
+  padding: 15px 15px 15px 50px;
   background-color: var(--panel-1);
   color: var(--general-use-white);
   font-family: 'Roboto Mono', monospace;
@@ -261,13 +261,18 @@ a {
   border: none;
   cursor: pointer;
   font-size: 16px;
-
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 
 .button-projects:hover {
   background-color: var(--general-use-white);
   color: var(--panel-1);
+}
+
+.button-projects:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15); 
+  transform: translate(5px, 5px); 
 }
 
 /**********************project container**********************/
