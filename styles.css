@@ -17,6 +17,7 @@ body {
   color: var(--general-use-white);
   font-family: 'Roboto Mono', monospace;
   margin: 0;
+  user-select: none;
 }
 
 .white {
@@ -61,7 +62,7 @@ li:hover {
 }
 
 li:active{
-  margin-top: 10px;
+  transform: translate(5px, 5px); 
 }
 
 a {
@@ -174,14 +175,10 @@ a {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 50px 0 0 0;
+  padding: 0;
   justify-content: center;
 }
 
-.project-boxes-container::after {
-  content: "";
-  width: 200px;
-}
 
 .linked-box {
   line-height: 0;
@@ -200,6 +197,7 @@ a {
   background-color: var(--panel-1);
   border: 1px solid var(--panel-1);
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -208,6 +206,7 @@ a {
   width: 100%;
   object-fit: cover; 
   margin: 0;
+
 }
 
 .description-div {
@@ -239,14 +238,15 @@ a {
 
 
 .button-container {
-  display: block;
-  width: 100%;
-  height: auto;
+  text-align: center;
+  margin: 50px;
 }
+
+
 
 .button-projects {
   display: block;
-  text-align: center;
+  margin: auto;
   padding: 15px;
   background-color: var(--panel-1);
   color: var(--general-use-white);
@@ -257,6 +257,7 @@ a {
   font-size: 16px;
   transition: background-color 0.3s, color 0.3s;
 }
+
 
 .button-projects:hover {
   background-color: var(--general-use-white);
