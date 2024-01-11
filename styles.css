@@ -19,6 +19,10 @@ body {
   margin: 0;
 }
 
+.white {
+  color: var(--general-use-white);
+}
+
 /**********************navigation bar**********************/
 header {
   width: 100%;
@@ -64,9 +68,11 @@ a {
   color: inherit;
   font-size: 24px;
   text-decoration: none;
-
+  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
   transition: padding, 0.25s;
 }
+
 /**********************navigation bar**********************/
 /**********************main container**********************/
 .about-container {
@@ -157,10 +163,14 @@ a {
   background-color: var(--panel-2);
 }
 
+.projects-title {
+  margin: 125px 0 50px 0;
+}
+
 .project-boxes-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 25px;
+  grid-gap: 100px;
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
@@ -185,10 +195,10 @@ a {
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
-  height: 300px;
-  width: 250px;
-
-  border: 1 px solid var(--nav-bar);
+  height: 400px;
+  width: 400px;
+  background-color: var(--panel-1);
+  border: 1px solid var(--panel-1);
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -221,11 +231,15 @@ a {
   background-color: white;
 }
 
+.item-box:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15); 
+  transform: translate(5px, 5px); 
+
+}
+
 
 .button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   width: 100%;
   height: auto;
 }
