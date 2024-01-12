@@ -21,6 +21,10 @@ body {
   user-select: none;
 }
 
+p {
+  margin: 20px;
+}
+
 .strip {
   height: inherit;
   width: inherit;
@@ -57,7 +61,6 @@ ul {
 li {
   font-weight: 700;
   padding: 0;
-  margin: 0;
   display: block;
 }
 
@@ -76,7 +79,6 @@ a {
   font-size: 24px;
   text-decoration: none;
   padding: 10px 50px 10px 50px;
-  margin: 0;
 
 }
 /**********************navigation bar**********************/
@@ -95,7 +97,6 @@ a {
 .name {
   font-weight: 300;
   font-size: 58px;
-  margin: 0;
 }
 
 .gtlt {
@@ -200,7 +201,6 @@ a {
   height: 100%; 
   width: 100%;
   object-fit: cover; 
-  margin: 0;
 }
 
 .description-div {
@@ -306,7 +306,6 @@ a {
   padding-inline-start: 0;
   margin-block: 0;
   height: 100%;
-  margin: 0;
 }
 
 .contact-li {
