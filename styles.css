@@ -172,14 +172,13 @@ a {
 }
 
 .project-boxes-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 50px;
-  justify-content: center;
+  padding: 0px 50px 0 50px;
 }
 
 .item-box {
@@ -191,6 +190,7 @@ a {
   width: 400px;
   max-width: 400px;
   max-height: 400px;
+  margin: 25px;
   background-color: var(--panel-1);
   border: 1px solid var(--panel-1);
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
