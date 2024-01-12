@@ -319,7 +319,6 @@ a {
 .contact-li {
   font-weight: 700;
   color: var(--general-use-white);
-  padding: 8px;
   display: flex;
   align-items: center;
 }
