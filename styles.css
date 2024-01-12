@@ -13,6 +13,7 @@
 **note that --general-use-white is used wherever white is needed for the sake of
 **setting colors using established variables***********************************************/
 
+/**general use**/
 body {
   color: var(--general-use-white);
   font-family: 'Roboto Mono', monospace;
@@ -21,9 +22,15 @@ body {
   overflow-x: hidden;
 }
 
+.strip {
+  height: inherit;
+  width: inherit;
+  padding: 0 0 90px 0;
+}
+
 .white {
   color: var(--general-use-white);
-}
+/**general use**/
 
 /**********************navigation bar**********************/
 header {
@@ -76,7 +83,6 @@ a {
   margin: 0;
 
 }
-
 /**********************navigation bar**********************/
 /**********************main container**********************/
 .about-container {
@@ -118,7 +124,6 @@ a {
 
 .two {
   font-size: 12px;
-
 }
 /**********************main container**********************/
 /**********************smooth scroll and underscore animation**********************/
@@ -197,13 +202,11 @@ a {
   cursor: pointer;
 }
 
-
 .project-img {
   height: 100%; 
   width: 100%;
   object-fit: cover; 
   margin: 0;
-
 }
 
 .description-div {
@@ -221,7 +224,6 @@ a {
   justify-content: center;
   align-items: center;
   margin: 10px 0 20px 0;
-
 }
 
 .item-box:hover {
@@ -240,13 +242,10 @@ a {
   margin: 0 10px 0 10px;
 }
 
-
 .button-container {
   text-align: center;
   margin: 50px;
 }
-
-
 
 .button-projects {
   display: block;
@@ -262,7 +261,6 @@ a {
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
-
 .button-projects:hover {
   background-color: var(--general-use-white);
   color: var(--panel-1);
@@ -272,7 +270,6 @@ a {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.15); 
   transform: translate(5px, 5px); 
 }
-
 /**********************project container**********************/
 /**********************contact container**********************/
 .contact-container {
@@ -308,7 +305,6 @@ a {
   padding: 0;
 }
 
-
 .contact-ul {
   display: flex;
   justify-content: right;
@@ -327,17 +323,11 @@ a {
   align-items: center;
 }
 
-
 .contact-li:hover {
   background-color: var(--general-use-white);
   color: var(--nav-bar);
   cursor: pointer;
 }
-
-
-
-
-
 /**********************contact container**********************/
 /*****************anything related to the footer**************/
 footer {
@@ -352,11 +342,4 @@ footer {
   font-weight: 700;
   padding: 10px 0;
 }
-
 /*****************anything related to the footer**************/
-
-.strip {
-  height: inherit;
-  width: inherit;
-  padding: 0 0 90px 0;
-}
