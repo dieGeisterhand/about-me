@@ -19,7 +19,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   user-select: none;
-  overflow-x: hidden;
 }
 
 .strip {
@@ -28,8 +27,6 @@ body {
   padding: 0 0 90px 0;
 }
 
-.white {
-  color: var(--general-use-white);
 /**general use**/
 
 /**********************navigation bar**********************/
@@ -59,7 +56,6 @@ ul {
 
 li {
   font-weight: 700;
-  color: var(--general-use-white);
   padding: 0;
   margin: 0;
   display: block;
@@ -99,7 +95,6 @@ a {
 .name {
   font-weight: 300;
   font-size: 58px;
-  color: var(--general-use-white);
   margin: 0;
 }
 
@@ -109,7 +104,6 @@ a {
 }
 
 .slash {
-  color: var(--general-use-white);
   font-weight: 300;
 }
 
@@ -252,7 +246,6 @@ a {
   margin: auto;
   padding: 15px 15px 15px 50px;
   background-color: var(--panel-1);
-  color: var(--general-use-white);
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   border: none;
@@ -318,7 +311,6 @@ a {
 
 .contact-li {
   font-weight: 700;
-  color: var(--general-use-white);
   display: flex;
   align-items: center;
 }
@@ -338,7 +330,6 @@ footer {
   text-align: center;
   border-top: 2px solid var(--nav-bar);
   background-color: var(--nav-bar);
-  color: var(--general-use-white);
   font-weight: 700;
   padding: 10px 0;
 }
