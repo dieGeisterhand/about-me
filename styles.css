@@ -18,6 +18,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   user-select: none;
+  overflow-x: hidden;
 }
 
 .white {
@@ -174,27 +175,21 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 100px;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 0;
+  padding: 50px;
   justify-content: center;
-}
-
-
-.linked-box {
-  line-height: 0;
-  margin: 0;
-  padding: 0;
 }
 
 .item-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   justify-content: space-between;
   height: 400px;
   width: 400px;
+  max-width: 400px;
+  max-height: 400px;
   background-color: var(--panel-1);
   border: 1px solid var(--panel-1);
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
