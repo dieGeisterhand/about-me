@@ -53,7 +53,8 @@ ul {
 li {
   font-weight: 700;
   color: var(--general-use-white);
-  padding: 8px;
+  padding: 0;
+  margin: 0;
   display: block;
 }
 
@@ -71,8 +72,8 @@ a {
   color: inherit;
   font-size: 24px;
   text-decoration: none;
-  padding: 0 25px 0 25px;
-  margin: 0 25px 0 25px;
+  padding: 10px 50px 10px 50px;
+  margin: 0;
 
 }
 
