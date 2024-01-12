@@ -280,31 +280,63 @@ a {
 /**********************contact container**********************/
 .contact-container {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column; 
+  justify-content: center;
   align-items: center;
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 90vh;
+  max-height: 90vh;
   width: 100%;
   background-color: var(--background-color);
 }
 
 .contact-placeholder {
-  display: flex;
+  display: flex; 
   flex-direction: column;
-  align-items: center; /* Center content vertically */
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
 }
 
-.mailto {
-  font-weight: 300;
-  font-size: 58px;
+.contact-methods {
+  display: flex; 
+  flex-direction: column; 
+  margin: 25px 0 0 0;
+}
+
+.icons {
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.contact-ul {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  margin: 0;
+}
+
+.contact-li {
+  font-weight: 700;
   color: var(--general-use-white);
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 
-.mailto:hover{
+
+.contact-li:hover {
   background-color: var(--general-use-white);
   color: var(--nav-bar);
-
+  cursor: pointer;
 }
+
+
+
 
 
 /**********************contact container**********************/
@@ -332,14 +364,11 @@ footer {
 }
 
 img {
-  height: 50px;
-  margin: 0 15px 25px 15px;
+  height: 30px;
+  margin: 5px;
+  vertical-align: middle;
 }
 
-.icons {
-  margin: 0;
-  padding: 0;
-}
 
 .signature {
   display: flex;
