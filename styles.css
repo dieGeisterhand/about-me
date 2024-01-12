@@ -220,6 +220,7 @@ a {
   font-size: 20px;
   justify-content: center;
   align-items: center;
+  margin: 10px 0 20px 0;
 
 }
 
@@ -301,9 +302,12 @@ a {
 
 .icons {
   vertical-align: middle;
+  height: 30px;
+  margin: 5px;
   margin: 0 10px 0 0;
   padding: 0;
 }
+
 
 .contact-ul {
   display: flex;
@@ -343,38 +347,16 @@ footer {
   justify-content: center;
   text-align: center;
   border-top: 2px solid var(--nav-bar);
-  background-color: var(--background-color);
+  background-color: var(--nav-bar);
   color: var(--general-use-white);
   font-weight: 700;
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
-.media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-}
-
-img {
-  height: 30px;
-  margin: 5px;
-  vertical-align: middle;
-}
-
-
-.signature {
-  display: flex;
-  height: 50px;
-  padding: 0 25px 0 25px;
-  align-items: center;
-
-}
-
-.signature:hover {
-  background-color: var(--general-use-white);
-  color: green;
-}
 /*****************anything related to the footer**************/
+
+.strip {
+  height: inherit;
+  width: inherit;
+  padding: 0 0 90px 0;
+}
