@@ -142,7 +142,6 @@ a {
 }
 /**********************smooth scroll and underscore animation**********************/
 /**********************background container**********************/
-
 .background-container {
   display: flex;
   flex-direction: row;
@@ -230,10 +229,6 @@ a {
   text-align: center;
   cursor: pointer;
 }
-
-
-
-
 /**********************background container**********************/
 /**********************project container**********************/
 .projects-container {
