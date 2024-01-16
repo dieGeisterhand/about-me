@@ -47,7 +47,7 @@ header {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.15);
 }
 
-ul {
+.navigation-ul {
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
@@ -58,19 +58,19 @@ ul {
   margin-right: 50px;
 }
 
-li {
+.contact-li {
   font-weight: 700;
   padding: 0;
   display: block;
 }
 
-li:hover {
+.contact-li:hover {
   background-color: var(--general-use-white);
   color: var(--nav-bar);
   cursor: pointer;
 }
 
-li:active{
+.contact-li:active{
   transform: translate(5px, 5px); 
 }
 
@@ -142,17 +142,75 @@ a {
 }
 /**********************smooth scroll and underscore animation**********************/
 /**********************background container**********************/
+
 .background-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
   justify-content: space-evenly;
-  height: 100vh;
+  min-height: 145vh;
   width: 100%;
+  padding: 125px;
   background-color: var(--panel-1);
 }
+
+.background-info {
+  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1500px;
+  margin: 25px;
+  background-color: rgb(199, 0, 0);
+}
+
+.work-history {
+  text-align: center;
+}
+
+.left-panel {
+  height: auto;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  padding: 25px;
+}
+
+.work-place {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+}
+
+.right {
+  text-align: right;
+}
+
+.description1{
+  display: grid;
+  grid-template-columns: auto auto; 
+
+}
+
+.bg {
+  list-style-type: circle;
+  margin: 10px 0;
+}
+
+
+
+.right-panel {
+  height: auto;
+  width: 50%;
+  background-color: brown;
+}
+
+.item-list {
+  margin: 0 0 40px 0;
+}
+
+
+
+
 /**********************background container**********************/
 /**********************project container**********************/
 .projects-container {
@@ -333,3 +391,8 @@ footer {
   padding: 10px 0;
 }
 /*****************anything related to the footer**************/
+
+
+
+
+
