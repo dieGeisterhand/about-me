@@ -4,6 +4,7 @@
 :root{
   --background-color: rgb(31, 31, 31);
   --general-use-white: rgb(255, 255, 255); 
+  --general-use-black: rgb(0, 0, 0);
   --nav-bar: rgb(37, 66, 50);
   --accents: var(--nav-bar);
   --panel-1: rgb(46, 68, 85);
@@ -142,7 +143,6 @@ a {
 }
 /**********************smooth scroll and underscore animation**********************/
 /**********************background container**********************/
-
 .background-container {
   display: flex;
   flex-direction: row;
@@ -161,7 +161,8 @@ a {
   width: 100%;
   max-width: 1500px;
   margin: 25px;
-  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .background-title {
@@ -197,10 +198,9 @@ a {
 }
 
 .highlight:hover{
-  background-color: white;
-  color: var(--panel-1);
+  background-color: var(--general-use-white);
+  color: rgba(0, 0, 0, 0.9);
 }
-
 
 .right-panel {
   height: auto;
@@ -223,14 +223,16 @@ a {
 }
 
 .resume-button {
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
   padding: 25px 50px;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: center;
   cursor: pointer;
 }
 
-
-
+.hide {
+  color: #10181e;
+}
 
 /**********************background container**********************/
 /**********************project container**********************/
@@ -412,8 +414,3 @@ footer {
   padding: 10px 0;
 }
 /*****************anything related to the footer**************/
-
-
-
-
-
