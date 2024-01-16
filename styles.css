@@ -148,7 +148,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  min-height: 145vh;
+  min-height: min-content;
   width: 100%;
   padding: 125px;
   background-color: var(--panel-1);
@@ -216,7 +216,7 @@ a {
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 100vh;
+  min-height: min-content;
   width: 100%;
   padding: 0 0;
   background-color: var(--panel-2);
