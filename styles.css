@@ -281,7 +281,7 @@ a {
 .project-img {
   height: 100%; 
   width: 100%;
-  object-fit: cover; 
+  object-fit: fill; 
 }
 
 .description-div {
@@ -294,7 +294,7 @@ a {
 .project-description {
   display: flex;
   height: 50px;
-  width: 245px;
+  width: 300px;
   font-size: 20px;
   justify-content: center;
   align-items: center;
