@@ -18,7 +18,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   user-select: none;
-  overflow-x: hidden;
 }
 
 .white {
@@ -327,13 +326,11 @@ a {
   align-items: center;
 }
 
-
 .contact-li:hover {
   background-color: var(--general-use-white);
   color: var(--nav-bar);
   cursor: pointer;
 }
-
 
 
 
