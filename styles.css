@@ -161,17 +161,16 @@ a {
   width: 100%;
   max-width: 1500px;
   margin: 25px;
-  background-color: rgb(199, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.work-history {
+.background-title {
   text-align: center;
 }
 
 .left-panel {
   height: auto;
   width: 50%;
-  background-color: rgb(0, 0, 0);
   padding: 25px;
 }
 
@@ -180,7 +179,7 @@ a {
   align-items: center;
   justify-content: space-between;
   font-size: 25px;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
 }
 
 .right {
@@ -198,7 +197,7 @@ a {
 .right-panel {
   height: auto;
   width: 50%;
-  background-color: brown;
+  padding: 25px;
 }
 
 .item-list {
