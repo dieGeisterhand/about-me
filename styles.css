@@ -351,8 +351,8 @@ a {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
-  max-height: 90vh;
+  min-height: 95vh;
+  max-height: 95vh;
   width: 100%;
   background-color: var(--background-color);
 }
