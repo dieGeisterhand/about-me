@@ -62,8 +62,6 @@ header {
   font-weight: 700;
   padding: 0;
   display: block;
-  width: 225px;
-  text-align: center;
 }
 
 .contact-li:hover {
@@ -80,8 +78,8 @@ a {
   color: inherit;
   font-size: 24px;
   text-decoration: none;
-  padding: 10px 25px 10px 25px;
-  width: 225px;
+  padding: 10px 50px 10px 50px;
+
 }
 /**********************navigation bar**********************/
 /**********************main container**********************/
