@@ -113,14 +113,16 @@ a {
 
 .subtitle {
   font-weight: 700;
+  max-width: 950px;
 }
 
 .one {
-  font-size: 30px;
+  font-size: 20px;
+  margin: 15px 0 15px 0;
 }
 
 .two {
-  font-size: 12px;
+  font-size: 25px;
 }
 /**********************main container**********************/
 /**********************smooth scroll and underscore animation**********************/
@@ -221,7 +223,7 @@ a {
 }
 
 .imadivision {
-  margin: 75px 0 75px 0;
+  margin: 50px 0 50px 0;
   border-bottom: 2px dashed var(--general-use-white);
 }
 
