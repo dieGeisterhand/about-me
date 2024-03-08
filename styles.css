@@ -254,12 +254,12 @@ a {
   justify-content: space-evenly;
   min-height: min-content;
   width: 100%;
-  padding: 0 0;
+  padding: 100px 0 150px 0;
   background-color: var(--panel-2);
 }
 
 .projects-title {
-  margin: 125px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 
 .project-boxes-container {
